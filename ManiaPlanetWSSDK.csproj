@@ -85,6 +85,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="HttpException.cs" />
     <Compile Include="ManiaFlash\Channel.cs" />
     <Compile Include="ManiaFlash\Message.cs" />
     <Compile Include="ManiaFlash\ManiaFlash.cs" />
@@ -93,7 +94,11 @@
     <Compile Include="ManiaHome\ServerPublisher.cs" />
     <Compile Include="ManiaPlanet\ChallengeRanking.cs" />
     <Compile Include="ManiaPlanet\Contract.cs" />
-    <Compile Include="ManiaPlanet\ManiaConnect\Client.cs" />
+    <Compile Include="ManiaPlanet\ManiaConnect\IPersistance.cs" />
+    <Compile Include="ManiaPlanet\ManiaConnect\OauthClient.cs" />
+    <Compile Include="ManiaPlanet\ManiaConnect\PlayerService.cs" />
+    <Compile Include="ManiaPlanet\ManiaConnect\Token.cs" />
+    <Compile Include="ManiaPlanet\PlayerOnlineStatus.cs" />
     <Compile Include="ManiaPlanet\PlayerRank.cs" />
     <Compile Include="ManiaPlanet\CompetitionService.cs" />
     <Compile Include="ManiaPlanet\Date.cs" />
@@ -134,6 +139,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
