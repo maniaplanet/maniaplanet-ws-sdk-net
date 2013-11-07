@@ -10,8 +10,8 @@ namespace ManiaPlanetWSSDK.ManiaPlanet.ManiaConnect
     {
         void Init();
         void Destroy();
-        T GetVariable<T>(string name);
-        object GetVariable(string name);
+        T GetVariable<T>(string name, object defaultValue = null);
+        object GetVariable(string name, object defaultValue = null);
         bool SetVariable(string name, object value);
         bool DeleteVariable(string name); 
     }
