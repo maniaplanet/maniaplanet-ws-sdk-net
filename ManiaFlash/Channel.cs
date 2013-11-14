@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ManiaPlanetWSSDK.ManiaFlash
 {
-    public class Channel
-    {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string description { get; set; }
-    }
+	public class Channel
+	{
+		public int id { get; set; }
+		public string name { get; set; }
+		public string description { get; set; }
+	}
 }

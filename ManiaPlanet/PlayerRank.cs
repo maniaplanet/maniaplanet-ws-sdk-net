@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ManiaPlanetWSSDK.ManiaPlanet
 {
-    public class PlayerRank
-    {
-        public int rank { get; set; }
-        public double points { get; set; }
-        public Player player { get; set; }
-    }
+	public class PlayerRank
+	{
+		public int rank { get; set; }
+		public double points { get; set; }
+		public Player player { get; set; }
+	}
 }

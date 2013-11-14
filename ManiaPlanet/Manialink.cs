@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ManiaPlanetWSSDK.ManiaPlanet
 {
-    public class Manialink
-    {
-        public string code { get; set; }
-        public string url { get; set; }
-        public int planetCost { get; set; }
-        public string login { get; set; }
-    }
+	public class Manialink
+	{
+		public string code { get; set; }
+		public string url { get; set; }
+		public int planetCost { get; set; }
+		public string login { get; set; }
+	}
 }

@@ -7,22 +7,22 @@ using System.Threading.Tasks;
 
 namespace ManiaPlanetWSSDK
 {
-    public class HttpException : Exception
-    {
-        protected HttpStatusCode HTTPStatusCode;
+	public class HttpException : Exception
+	{
+		protected HttpStatusCode HTTPStatusCode;
 
-        public HttpException(string message, HttpStatusCode code) 
-            : base(message)
-        {
-            HTTPStatusCode = code;
-        }
+		public HttpException(string message, HttpStatusCode code) 
+			: base(message)
+		{
+			HTTPStatusCode = code;
+		}
 
-        public HttpException(string message, HttpStatusCode code, Exception innerException)
-            : base(message, innerException)
-        {
-            HTTPStatusCode = code;
-        }
+		public HttpException(string message, HttpStatusCode code, Exception innerException)
+			: base(message, innerException)
+		{
+			HTTPStatusCode = code;
+		}
 
-        public HttpStatusCode StatusCode { get { return HTTPStatusCode; } }
-    }
+		public HttpStatusCode StatusCode { get { return HTTPStatusCode; } }
+	}
 }
