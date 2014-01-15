@@ -42,7 +42,10 @@ namespace ManiaPlanetWSSDK.ManiaFlash
 		/// Post a message on a channel
 		/// </summary>
 		/// <param name="channelId">the Id string of the channel</param>
-		/// <param name="message">The message itself</param>
+		/// <param name="message">The message itself. message, longMessage and mediaURL are
+		/// the only properties considered for the publication.
+		/// Message is the only one that is required.
+		/// </param>
 		/// <returns></returns>
 		public Task<bool> PostMessage(string channelId, Message message)
 		{
